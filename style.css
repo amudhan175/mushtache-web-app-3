@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-image: url("Mustache_background.jpg");
+}
+.head {
+    background-color: khaki;
+    width: 500px;
+    height: 50px;
+    font-size: 25px;
+    color: black;
+}
+.take_snapshot_btn:hover {
+    background-color: greenyellow;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: fantasy;
+}
+canvas {
+    animation-name:color_blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color_blink {
+    from {box-shadow: 1px 1px 50px black;}
+    to {box-shadow: 1px 1px 50px brown;}
+
+}
